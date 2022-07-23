@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 600px;
+    padding: 0%;
+    background-image: linear-gradient(rgba(124, 188, 204, 0.9),rgba(74, 84, 141, 0.9)), url(https://foodtank.com/wp-content/uploads/2021/07/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;  
+}
+nav{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.content
+{
+    position: absolute;
+    margin-left: 620px;
+}
+.logo{
+    width: 100;
+    cursor: pointer;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: maroon;
+    transition-duration: 0.2s;
+}
+.btn_login{
+    cursor: pointer;
+    outline: none; 
+    margin: 10px 0;
+    padding: 5px 12px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.btn_login:hover{
+    transition: 0.5s;
+    border: none;
+    background: rgb(158, 156, 156); 
+}
+.btn2_signup{
+    cursor: pointer;
+    outline: none; 
+    margin: 10px 0;
+    padding: 5px 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background: #388DB2;
+    color: white;
+    font-weight: bold;
+}
+.btn2_signup:hover{
+    transition: 0.5s;
+    border: none;
+    background: #03364d; 
+}
+.logns{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar
+{
+    width: 100%;
+    max-width: 700px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+.search-bar input
+{
+   background: transparent;
+   flex: 1;
+   border: 0;
+   outline: none;
+   padding: 24px 20px;
+   font-size: 20px;
+   color: #cac7ff;
+}
+::placeholder{
+    color: #cac7ff;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #58629b;
+    cursor: pointer;
+}
+.titled{
+  text-decoration: yellow;
+  color: white;
+}
+
+.books-content{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 7%;
+    border: 3px solid rgb(54, 51, 51);
+    border-radius: 3px;
+    padding: 2.1px;
+    width: 430px;
+    height: 550px;
+    background-color: #b0b4b6;
+    overflow: hidden;
+    float: left;
+}
+.books-conent:hover{
+    background-color: rgb(151, 211, 211);
+    color: white;
+}
+
+.books-images{
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 3px;
+    width: 450px;
+    height: 450px;
+}
+
+.books-title{
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    cursor: pointer;
+}
+
+.sucess-login{
+    text-decoration: snow;
+}
+
+.file_upload{
+    background-color: #388DB2;
+    
+    
+}
+
+.books-content{
+    background-color: rgb(134, 134, 134);
+}
+
+.books-content:hover{
+    background-color: rgb(194, 194, 194);
+    transform: scale(1.05);
+    transition: transform .2s;
+}
+
+.btn_upload {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    overflow: hidden;
+    float: right;
+    margin-right: 10%;
+}
+  
+.btn_upload:hover {
+  background-color: RoyalBlue;
+}
+
+.username{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn_signout {
+    background-color: rgb(40, 134, 211);
+    border: none;
+    color: rgb(229, 151, 151);
+    padding: 9px 20px;
+    cursor: pointer;
+    font-size: 15px;
+    overflow: hidden;
+    float: right;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+  
+.btn_signout:hover {
+  background-color: RoyalBlue;
+}
+
+.book_des{
+    block-size: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-size: 15px;
+
+}
+.site-footer{
+    position: relative;
+    bottom: 0;
+    width: 0%;
+}
